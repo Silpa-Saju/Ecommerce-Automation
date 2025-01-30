@@ -5,7 +5,7 @@ __pycache__/
 pomFrameworkStructure.txt
 testdata/
 venv/
-
+tests/test_selenium_grid_automation.py
 
 
 

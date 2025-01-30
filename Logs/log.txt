@@ -1,51 +1,51 @@
-01/30/2025 04:42:27 PM - conftest.py:[78] -INFO  - Loaded config file :  /Users/silpasaju/PycharmProjects/Amazon Automation/config.ini
-01/30/2025 04:42:27 PM - test_amazon_automation.py:[35] -INFO  - Test to search for an invalid product on Amazon
-01/30/2025 04:42:27 PM - base_page.py:[22] -INFO  - Navigating to URL :  https://www.amazon.in/
-01/30/2025 04:42:29 PM - home_page.py:[33] -INFO  - Searching for product !!!!!&&&&*****()***%$$$ in Home page
-01/30/2025 04:42:32 PM - home_page.py:[35] -INFO  - Checking if results are loaded for the product search
-01/30/2025 04:42:32 PM - home_page.py:[37] -INFO  - PASS : Results got loaded for product !!!!!&&&&*****()***%$$$
-01/30/2025 04:42:32 PM - home_page.py:[49] -INFO  - Total count of products list after search : 48
-01/30/2025 04:42:32 PM - home_page.py:[52] -INFO  - Looping through all products elements that matches the search value
-01/30/2025 04:42:32 PM - home_page.py:[82] -INFO  - Checking if any matching products are found
-01/30/2025 04:42:32 PM - home_page.py:[87] -INFO  - PASS : no matching products found for product !!!!!&&&&*****()***%$$$ from search results
-01/30/2025 04:42:32 PM - test_amazon_automation.py:[41] -INFO  - Test Passed :  Test to search for an invalid product on Amazon
-01/30/2025 04:42:32 PM - test_amazon_automation.py:[55] -INFO  - Test to search for a valid product on Amazon
-01/30/2025 04:42:32 PM - base_page.py:[22] -INFO  - Navigating to URL :  https://www.amazon.in/
-01/30/2025 04:42:33 PM - home_page.py:[33] -INFO  - Searching for product Apple 2024 MacBook Air in Home page
-01/30/2025 04:42:35 PM - home_page.py:[35] -INFO  - Checking if results are loaded for the product search
-01/30/2025 04:42:35 PM - home_page.py:[37] -INFO  - PASS : Results got loaded for product Apple 2024 MacBook Air
-01/30/2025 04:42:35 PM - home_page.py:[49] -INFO  - Total count of products list after search : 22
-01/30/2025 04:42:35 PM - home_page.py:[52] -INFO  - Looping through all products elements that matches the search value
-01/30/2025 04:42:35 PM - home_page.py:[70] -INFO  - Checking if any matching products are found
-01/30/2025 04:42:35 PM - home_page.py:[72] -INFO  - PASS: Found matching products for product Apple 2024 MacBook Air
-01/30/2025 04:42:35 PM - test_amazon_automation.py:[61] -INFO  - Test Passed :  Test to search for a valid product on Amazon
-01/30/2025 04:42:35 PM - test_amazon_automation.py:[75] -INFO  - Test to extract  product results from on Amazon and save it to a csv file
-01/30/2025 04:42:35 PM - home_page.py:[95] -INFO  - Saving the extracted product information in a CSV file product_info.csv
-01/30/2025 04:42:35 PM - home_page.py:[116] -INFO  - PASS: successfully saved the product information to a csv file
-01/30/2025 04:42:35 PM - test_amazon_automation.py:[78] -INFO  - Test Passed :  Test to extract  product results from on Amazon and save it to a csv file
-01/30/2025 04:42:35 PM - test_amazon_automation.py:[91] -INFO  - Test to crawl multiple pages of search results on Amazon and save it to a csv file
-01/30/2025 04:42:35 PM - home_page.py:[141] -INFO  - Checking navigation to next page is available
-01/30/2025 04:42:35 PM - home_page.py:[143] -INFO  - Clicking paginator for navigation to next page
-01/30/2025 04:42:55 PM - test_amazon_automation.py:[97] -INFO  - Navigating to page 2  of search results
-01/30/2025 04:42:55 PM - home_page.py:[141] -INFO  - Checking navigation to next page is available
-01/30/2025 04:42:55 PM - home_page.py:[143] -INFO  - Clicking paginator for navigation to next page
-01/30/2025 04:43:15 PM - home_page.py:[49] -INFO  - Total count of products list after search : 22
-01/30/2025 04:43:15 PM - home_page.py:[52] -INFO  - Looping through all products elements that matches the search value
-01/30/2025 04:43:15 PM - home_page.py:[141] -INFO  - Checking navigation to next page is available
-01/30/2025 04:43:15 PM - home_page.py:[143] -INFO  - Clicking paginator for navigation to next page
-01/30/2025 04:43:36 PM - test_amazon_automation.py:[97] -INFO  - Navigating to page 3  of search results
-01/30/2025 04:43:36 PM - home_page.py:[141] -INFO  - Checking navigation to next page is available
-01/30/2025 04:43:36 PM - home_page.py:[143] -INFO  - Clicking paginator for navigation to next page
-01/30/2025 04:43:56 PM - home_page.py:[49] -INFO  - Total count of products list after search : 22
-01/30/2025 04:43:56 PM - home_page.py:[52] -INFO  - Looping through all products elements that matches the search value
-01/30/2025 04:43:56 PM - home_page.py:[95] -INFO  - Saving the extracted product information in a CSV file product_info.csv
-01/30/2025 04:43:56 PM - home_page.py:[116] -INFO  - PASS: successfully saved the product information to a csv file
-01/30/2025 04:43:56 PM - test_amazon_automation.py:[103] -INFO  - Test Passed :  Test to crawl multiple pages of search results on Amazon and save it to a csv file
-01/30/2025 04:43:56 PM - test_amazon_automation.py:[112] -INFO  - Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page
-01/30/2025 04:43:56 PM - home_page.py:[125] -INFO  - Retrieving the url for 1st product that matches the search value 
-01/30/2025 04:43:56 PM - home_page.py:[130] -INFO  - Navigating to the 1st match product page
-01/30/2025 04:43:56 PM - base_page.py:[22] -INFO  - Navigating to URL :  https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxMTQyMzM0NTgyMjIxNjA0OjE3MzgyMzU2MTY6c3BfYXRmX25leHQ6MzAwMzkyOTYxNjQ4NzMyOjowOjo&url=%2FApple-MacBook-Laptop-12%25E2%2580%2591core-16%25E2%2580%2591core%2Fdp%2FB0DLHFY1C7%2Fref%3Dsr_1_65_sspa%3Fdib%3DeyJ2IjoiMSJ9.Q0FyDL9vkNQ_fqq1aE1wufESRv-yJAXJgKez0A9cAzOX4hIUFfFn_0u8OTWfb5UqxO5lkv6x4MZYvoyRjdWARLHaDoCnZQvUCRtmaq-i_2aF2gO8CK-aHnihtSdJAfEc7esOrlF8FBtnZShPCa-Xin4Ik0jFUCXz3nHg4FHheQBWWNlLwsamO8qRiT8cyNFH5U5FrmnPTQw_CxVtZTicSEn64Zy7jiffhv2ACOIzfW4.ZIvydSS7F8oE3IdoD-WlLbmvW76fZIx4uREHuUsbbiw%26dib_tag%3Dse%26keywords%3DApple%2B2024%2BMacBook%2BAir%26nsdOptOutParam%3Dtrue%26qid%3D1738235616%26sr%3D8-65-spons%26xpid%3DYai09r_XANRPP%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1
-01/30/2025 04:43:59 PM - product_page.py:[20] -INFO  - Validating presence of Add To Cart button on product page
-01/30/2025 04:43:59 PM - product_page.py:[28] -INFO  - Validating presence of Product Description on product page
-01/30/2025 04:43:59 PM - product_page.py:[36] -INFO  - Validating presence of Product Image on product page
-01/30/2025 04:43:59 PM - test_amazon_automation.py:[119] -INFO  - Test Passed :  Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page
+01/30/2025 07:44:24 PM - conftest.py:[108] -INFO  - Loaded config file :  /Users/silpasaju/PycharmProjects/Amazon Automation/config.ini
+01/30/2025 07:44:24 PM - test_amazon_automation.py:[35] -INFO  - Test to search for an invalid product on Amazon
+01/30/2025 07:44:24 PM - base_page.py:[22] -INFO  - Navigating to URL :  https://www.amazon.in/
+01/30/2025 07:44:27 PM - home_page.py:[33] -INFO  - Searching for product !!!!!&&&&*****()***%$$$ in Home page
+01/30/2025 07:44:31 PM - home_page.py:[35] -INFO  - Checking if results are loaded for the product search
+01/30/2025 07:44:31 PM - home_page.py:[37] -INFO  - PASS : Results got loaded for product !!!!!&&&&*****()***%$$$
+01/30/2025 07:44:31 PM - home_page.py:[49] -INFO  - Total count of products list after search : 48
+01/30/2025 07:44:31 PM - home_page.py:[52] -INFO  - Looping through all products elements that matches the search value
+01/30/2025 07:44:31 PM - home_page.py:[82] -INFO  - Checking if any matching products are found
+01/30/2025 07:44:31 PM - home_page.py:[87] -INFO  - PASS : no matching products found for product !!!!!&&&&*****()***%$$$ from search results
+01/30/2025 07:44:31 PM - test_amazon_automation.py:[41] -INFO  - Test Passed :  Test to search for an invalid product on Amazon
+01/30/2025 07:44:31 PM - test_amazon_automation.py:[55] -INFO  - Test to search for a valid product on Amazon
+01/30/2025 07:44:31 PM - base_page.py:[22] -INFO  - Navigating to URL :  https://www.amazon.in/
+01/30/2025 07:44:33 PM - home_page.py:[33] -INFO  - Searching for product Apple 2024 MacBook Air in Home page
+01/30/2025 07:44:35 PM - home_page.py:[35] -INFO  - Checking if results are loaded for the product search
+01/30/2025 07:44:35 PM - home_page.py:[37] -INFO  - PASS : Results got loaded for product Apple 2024 MacBook Air
+01/30/2025 07:44:35 PM - home_page.py:[49] -INFO  - Total count of products list after search : 22
+01/30/2025 07:44:35 PM - home_page.py:[52] -INFO  - Looping through all products elements that matches the search value
+01/30/2025 07:44:36 PM - home_page.py:[70] -INFO  - Checking if any matching products are found
+01/30/2025 07:44:36 PM - home_page.py:[72] -INFO  - PASS: Found matching products for product Apple 2024 MacBook Air
+01/30/2025 07:44:36 PM - test_amazon_automation.py:[61] -INFO  - Test Passed :  Test to search for a valid product on Amazon
+01/30/2025 07:44:36 PM - test_amazon_automation.py:[75] -INFO  - Test to extract  product results from on Amazon and save it to a csv file
+01/30/2025 07:44:36 PM - home_page.py:[95] -INFO  - Saving the extracted product information in a CSV file product_info.csv
+01/30/2025 07:44:36 PM - home_page.py:[116] -INFO  - PASS: successfully saved the product information to a csv file
+01/30/2025 07:44:36 PM - test_amazon_automation.py:[78] -INFO  - Test Passed :  Test to extract  product results from on Amazon and save it to a csv file
+01/30/2025 07:44:36 PM - test_amazon_automation.py:[91] -INFO  - Test to crawl multiple pages of search results on Amazon and save it to a csv file
+01/30/2025 07:44:36 PM - home_page.py:[141] -INFO  - Checking navigation to next page is available
+01/30/2025 07:44:36 PM - home_page.py:[143] -INFO  - Clicking paginator for navigation to next page
+01/30/2025 07:44:56 PM - test_amazon_automation.py:[97] -INFO  - Navigating to page 2  of search results
+01/30/2025 07:44:56 PM - home_page.py:[141] -INFO  - Checking navigation to next page is available
+01/30/2025 07:44:56 PM - home_page.py:[143] -INFO  - Clicking paginator for navigation to next page
+01/30/2025 07:45:16 PM - home_page.py:[49] -INFO  - Total count of products list after search : 22
+01/30/2025 07:45:16 PM - home_page.py:[52] -INFO  - Looping through all products elements that matches the search value
+01/30/2025 07:45:16 PM - home_page.py:[141] -INFO  - Checking navigation to next page is available
+01/30/2025 07:45:16 PM - home_page.py:[143] -INFO  - Clicking paginator for navigation to next page
+01/30/2025 07:45:36 PM - test_amazon_automation.py:[97] -INFO  - Navigating to page 3  of search results
+01/30/2025 07:45:36 PM - home_page.py:[141] -INFO  - Checking navigation to next page is available
+01/30/2025 07:45:36 PM - home_page.py:[143] -INFO  - Clicking paginator for navigation to next page
+01/30/2025 07:45:56 PM - home_page.py:[49] -INFO  - Total count of products list after search : 22
+01/30/2025 07:45:56 PM - home_page.py:[52] -INFO  - Looping through all products elements that matches the search value
+01/30/2025 07:45:56 PM - home_page.py:[95] -INFO  - Saving the extracted product information in a CSV file product_info.csv
+01/30/2025 07:45:56 PM - home_page.py:[116] -INFO  - PASS: successfully saved the product information to a csv file
+01/30/2025 07:45:56 PM - test_amazon_automation.py:[103] -INFO  - Test Passed :  Test to crawl multiple pages of search results on Amazon and save it to a csv file
+01/30/2025 07:45:56 PM - test_amazon_automation.py:[112] -INFO  - Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page
+01/30/2025 07:45:56 PM - home_page.py:[125] -INFO  - Retrieving the url for 1st product that matches the search value 
+01/30/2025 07:45:56 PM - home_page.py:[130] -INFO  - Navigating to the 1st match product page
+01/30/2025 07:45:56 PM - base_page.py:[22] -INFO  - Navigating to URL :  https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NjgyMTIzNjA4MDc4OTA0OjE3MzgyNDY1MzY6c3BfYXRmX25leHQ6MzAwMzkyOTYxNjUxMDMyOjowOjo&url=%2FApple-MacBook-13-inch-10%25E2%2580%2591core-Unified%2Fdp%2FB0DLHH4BJ9%2Fref%3Dsr_1_65_sspa%3Fdib%3DeyJ2IjoiMSJ9.-S2PPZhBizQsR2bA35OGvFBQFFAFv5EB_jvDuVUm4LHnwvfEtnc4hOfmg7hpuIFfMSCn0rRuEHqihkkM_FFx07lYp2WPJl7GR-4mQGFOhNJ_oCthDTDz1jHsJMUnaoMIkrOwsz9mryJ_GVliT9UhJB7BqnCMODbbJUsZ6NxdvJ_m706P9YS_POkFTitH22J-G7Q-ImWt15QPKAdRzDVuYQV6fG3zuZVjtcCSSoi3L2k.9CRnBFHc20-ULvGltrxv-74stkvV3mXlsY38OZ6lE1M%26dib_tag%3Dse%26keywords%3DApple%2B2024%2BMacBook%2BAir%26nsdOptOutParam%3Dtrue%26qid%3D1738246536%26sr%3D8-65-spons%26xpid%3D6lLE48mKnPz_s%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1
+01/30/2025 07:45:58 PM - product_page.py:[20] -INFO  - Validating presence of Add To Cart button on product page
+01/30/2025 07:45:58 PM - product_page.py:[28] -INFO  - Validating presence of Product Description on product page
+01/30/2025 07:45:58 PM - product_page.py:[36] -INFO  - Validating presence of Product Image on product page
+01/30/2025 07:45:58 PM - test_amazon_automation.py:[119] -INFO  - Test Passed :  Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page

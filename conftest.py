@@ -18,6 +18,7 @@ logger = Logger.get_logger()
 
 # Global variable to store the WebDriver instance
 driver = None
+
 #Defining the fixture to return the driver
 @pytest.fixture(scope="session",params=["chrome"])
 def setup_driver(request):
@@ -46,6 +47,35 @@ def setup_driver(request):
             # Initialize the WebDriver
             driver = webdriver.Firefox(service=service, options=options)
 
+        driver.maximize_window()
+        # request.cls.driver=driver
+    yield driver
+
+    # Quit the driver after all tests are done
+    request.addfinalizer(driver.quit)
+    # # After the test class is finished, quit the driver
+    # if hasattr(request.cls, "driver"):
+    #     driver.quit()
+
+@pytest.fixture(scope="session",params=["chrome","edge"])
+def setup_grid_driver(request):
+    # # Ensure the fixture is called only once per class
+    # if not hasattr(request.cls, "driver"):
+    remote_url="http://localhost:4444/wd/hub"
+    global driver
+    if driver is None:
+        if request.param=="chrome":
+            options = webdriver.ChromeOptions()
+            # driver = webdriver.Chrome(ChromeDriverManager().install())
+
+        elif request.param=="edge":
+            options = webdriver.EdgeOptions()
+
+        elif request.param == "firefox":
+            options = webdriver.FirefoxOptions()
+
+        options.add_argument("--disable-blink-features=AutomationControlled")  # Bypass detection
+        driver = webdriver.Remote(command_executor=remote_url,options=options)
         driver.maximize_window()
         # request.cls.driver=driver
     yield driver
