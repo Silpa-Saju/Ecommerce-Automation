@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","80513","test_crawl_amazon_search_results[chrome]","tests","Thu Jan 30 16:42:35 IST 2025","passed","Thu Jan 30 16:43:56 IST 2025","Test_Amazon","test_amazon_automation","",""
+"","1","test_extract_and_save_search_results[chrome]","tests","Thu Jan 30 16:42:35 IST 2025","passed","Thu Jan 30 16:42:35 IST 2025","Test_Amazon","test_amazon_automation","",""
+"","3142","test_validate_elements_on_product_page[chrome]","tests","Thu Jan 30 16:43:56 IST 2025","passed","Thu Jan 30 16:43:59 IST 2025","Test_Amazon","test_amazon_automation","",""
+"","4923","test_search_invalid_product[chrome]","tests","Thu Jan 30 16:42:27 IST 2025","passed","Thu Jan 30 16:42:32 IST 2025","Test_Amazon","test_amazon_automation","",""
+"","3238","test_search_valid_product[chrome]","tests","Thu Jan 30 16:42:32 IST 2025","passed","Thu Jan 30 16:42:35 IST 2025","Test_Amazon","test_amazon_automation","",""

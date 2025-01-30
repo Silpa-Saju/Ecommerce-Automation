@@ -1,0 +1,4 @@
+INFO     utils.logger:test_amazon_automation.py:75 Test to extract  product results from on Amazon and save it to a csv file
+INFO     utils.logger:home_page.py:95 Saving the extracted product information in a CSV file product_info.csv
+INFO     utils.logger:home_page.py:116 PASS: successfully saved the product information to a csv file
+INFO     utils.logger:test_amazon_automation.py:78 Test Passed :  Test to extract  product results from on Amazon and save it to a csv file

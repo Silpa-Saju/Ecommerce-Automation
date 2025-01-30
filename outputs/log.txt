@@ -1,0 +1,51 @@
+01/30/2025 12:49:25 PM -INFO - TestExecution - Loaded config file :  /Users/silpasaju/PycharmProjects/Amazon Automation/config.ini
+01/30/2025 12:49:25 PM -INFO - TestExecution - Test to search for an invalid product on Amazon
+01/30/2025 12:49:25 PM -INFO - TestExecution - Navigating to URL :  https://www.amazon.in/
+01/30/2025 12:49:27 PM -INFO - TestExecution - Searching for product !!!!!&&&&*****()***%$$$ in Home page
+01/30/2025 12:49:28 PM -INFO - TestExecution - Checking if results are loaded for the product search
+01/30/2025 12:49:28 PM -INFO - TestExecution - PASS : Results got loaded for product !!!!!&&&&*****()***%$$$
+01/30/2025 12:49:28 PM -INFO - TestExecution - Total count of products list after search : 48
+01/30/2025 12:49:28 PM -INFO - TestExecution - Looping through all products elements that matches the search value
+01/30/2025 12:49:29 PM -INFO - TestExecution - Checking if any matching products are found
+01/30/2025 12:49:29 PM -INFO - TestExecution - PASS : no matching products found for product !!!!!&&&&*****()***%$$$ from search results
+01/30/2025 12:49:29 PM -INFO - TestExecution - Test Passed :  Test to search for an invalid product on Amazon
+01/30/2025 12:49:29 PM -INFO - TestExecution - Test to search for a valid product on Amazon
+01/30/2025 12:49:29 PM -INFO - TestExecution - Navigating to URL :  https://www.amazon.in/
+01/30/2025 12:49:29 PM -INFO - TestExecution - Searching for product Apple 2024 MacBook Air in Home page
+01/30/2025 12:49:31 PM -INFO - TestExecution - Checking if results are loaded for the product search
+01/30/2025 12:49:31 PM -INFO - TestExecution - PASS : Results got loaded for product Apple 2024 MacBook Air
+01/30/2025 12:49:31 PM -INFO - TestExecution - Total count of products list after search : 22
+01/30/2025 12:49:31 PM -INFO - TestExecution - Looping through all products elements that matches the search value
+01/30/2025 12:49:31 PM -INFO - TestExecution - Checking if any matching products are found
+01/30/2025 12:49:31 PM -INFO - TestExecution - PASS: Found matching products for product Apple 2024 MacBook Air
+01/30/2025 12:49:31 PM -INFO - TestExecution - Test Passed :  Test to search for a valid product on Amazon
+01/30/2025 12:49:31 PM -INFO - TestExecution - Test to extract  product results from on Amazon and save it to a csv file
+01/30/2025 12:49:31 PM -INFO - TestExecution - Saving the extracted product information in a CSV file product_info.csv
+01/30/2025 12:49:31 PM -INFO - TestExecution - PASS: successfully saved the product information to a csv file
+01/30/2025 12:49:31 PM -INFO - TestExecution - Test Passed :  Test to extract  product results from on Amazon and save it to a csv file
+01/30/2025 12:49:31 PM -INFO - TestExecution - Test to crawl multiple pages of search results on Amazon and save it to a csv file
+01/30/2025 12:49:31 PM -INFO - TestExecution - Checking navigation to next page is available
+01/30/2025 12:49:31 PM -INFO - TestExecution - Clicking paginator for navigation to next page
+01/30/2025 12:49:51 PM -INFO - TestExecution - Navigating to page 2  of search results
+01/30/2025 12:49:51 PM -INFO - TestExecution - Checking navigation to next page is available
+01/30/2025 12:49:51 PM -INFO - TestExecution - Clicking paginator for navigation to next page
+01/30/2025 12:50:11 PM -INFO - TestExecution - Total count of products list after search : 22
+01/30/2025 12:50:11 PM -INFO - TestExecution - Looping through all products elements that matches the search value
+01/30/2025 12:50:11 PM -INFO - TestExecution - Checking navigation to next page is available
+01/30/2025 12:50:11 PM -INFO - TestExecution - Clicking paginator for navigation to next page
+01/30/2025 12:50:31 PM -INFO - TestExecution - Navigating to page 3  of search results
+01/30/2025 12:50:31 PM -INFO - TestExecution - Checking navigation to next page is available
+01/30/2025 12:50:31 PM -INFO - TestExecution - Clicking paginator for navigation to next page
+01/30/2025 12:50:52 PM -INFO - TestExecution - Total count of products list after search : 22
+01/30/2025 12:50:52 PM -INFO - TestExecution - Looping through all products elements that matches the search value
+01/30/2025 12:50:52 PM -INFO - TestExecution - Saving the extracted product information in a CSV file product_info.csv
+01/30/2025 12:50:52 PM -INFO - TestExecution - PASS: successfully saved the product information to a csv file
+01/30/2025 12:50:52 PM -INFO - TestExecution - Test Passed :  Test to crawl multiple pages of search results on Amazon and save it to a csv file
+01/30/2025 12:50:52 PM -INFO - TestExecution - Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page
+01/30/2025 12:50:52 PM -INFO - TestExecution - Retrieving the url for 1st product that matches the search value 
+01/30/2025 12:50:52 PM -INFO - TestExecution - Navigating to the 1st match product page
+01/30/2025 12:50:52 PM -INFO - TestExecution - Navigating to URL :  https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MDgxNTc2Mzg2OTQ2NTg5OjE3MzgyMjE2MzI6c3BfYXRmX25leHQ6MzAwNDA0MjgzNjkwODMyOjowOjo&url=%2FLenovo-ThinkPad-Windows-Keyboard-21JKS0X900%2Fdp%2FB0CVQRJQ5P%2Fref%3Dsr_1_65_sspa%3Fdib%3DeyJ2IjoiMSJ9.QA60nys1XZrnV3WP8aQHTGu4PYWi8qeUqCtYJ3G64hvGjHj071QN20LucGBJIEps.wSRNY7FYczgDTrFyHlVBfnJFTkLKfY-6Sms76Qn-UCE%26dib_tag%3Dse%26keywords%3DApple%2B2024%2BMacBook%2BAir%26nsdOptOutParam%3Dtrue%26qid%3D1738221632%26sr%3D8-65-spons%26xpid%3DK3N3UQdoHCEO7%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1
+01/30/2025 12:50:55 PM -INFO - TestExecution - Validating presence of Add To Cart button on product page
+01/30/2025 12:50:55 PM -INFO - TestExecution - Validating presence of Product Description on product page
+01/30/2025 12:50:55 PM -INFO - TestExecution - Validating presence of Product Image on product page
+01/30/2025 12:50:55 PM -INFO - TestExecution - Test Passed :  Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page

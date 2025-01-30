@@ -1,0 +1,8 @@
+[32mINFO    [0m utils.logger:test_amazon_automation.py:112 Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page
+[32mINFO    [0m utils.logger:home_page.py:125 Retrieving the url for 1st product that matches the search value 
+[32mINFO    [0m utils.logger:home_page.py:130 Navigating to the 1st match product page
+[32mINFO    [0m utils.logger:base_page.py:22 Navigating to URL :  https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MDYxODE2MzQ5MzQ4Nzc5OjE3MzgyMzE2NjQ6c3BfYXRmX25leHQ6MzAwNDA0MjgzNjkwODMyOjowOjo&url=%2FLenovo-ThinkPad-Windows-Keyboard-21JKS0X900%2Fdp%2FB0CVQRJQ5P%2Fref%3Dsr_1_65_sspa%3Fdib%3DeyJ2IjoiMSJ9.JoYMDBwhLJ_kOQav-5Pi682uxLmbeK9W_A34n4t8BknYEpRROgCaKChrNsXvnSd2p2PohwRrMUD9RKSsxfmoyGT0uPDltTEcs3kPO5eiuCuo-xYRJZEVX27N_sIoJAPVi2LjmU0zrBDkoROr3EESMmGW2xOzx3uZ_SfUaU7xjeI1_dY1IVEifbeNbfS4PtxroPKejXepCqqvWsUAwSzBiSyVDHJubPlD5F0Sy1RzH6A.CHsR-oo_UEHD3hn6_Q1bGzj5kH9lYTcu3kQ1fQHSNls%26dib_tag%3Dse%26keywords%3DApple%2B2024%2BMacBook%2BAir%26nsdOptOutParam%3Dtrue%26qid%3D1738231664%26sr%3D8-65-spons%26xpid%3DwsZvwrqKnbzRy%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1
+[32mINFO    [0m utils.logger:product_page.py:20 Validating presence of Add To Cart button on product page
+[32mINFO    [0m utils.logger:product_page.py:28 Validating presence of Product Description on product page
+[32mINFO    [0m utils.logger:product_page.py:36 Validating presence of Product Image on product page
+[32mINFO    [0m utils.logger:test_amazon_automation.py:119 Test Passed :  Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page

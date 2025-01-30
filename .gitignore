@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+Ecommerce_Test_Cases_Final.xlsx
+__pycache__/
+pomFrameworkStructure.txt
+testdata/
+venv/
+
+
+
+

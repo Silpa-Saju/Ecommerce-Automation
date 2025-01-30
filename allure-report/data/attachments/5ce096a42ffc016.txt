@@ -1,0 +1,18 @@
+INFO     utils.logger:test_amazon_automation.py:91 Test to crawl multiple pages of search results on Amazon and save it to a csv file
+INFO     utils.logger:home_page.py:141 Checking navigation to next page is available
+INFO     utils.logger:home_page.py:143 Clicking paginator for navigation to next page
+INFO     utils.logger:test_amazon_automation.py:97 Navigating to page 2  of search results
+INFO     utils.logger:home_page.py:141 Checking navigation to next page is available
+INFO     utils.logger:home_page.py:143 Clicking paginator for navigation to next page
+INFO     utils.logger:home_page.py:49 Total count of products list after search : 22
+INFO     utils.logger:home_page.py:52 Looping through all products elements that matches the search value
+INFO     utils.logger:home_page.py:141 Checking navigation to next page is available
+INFO     utils.logger:home_page.py:143 Clicking paginator for navigation to next page
+INFO     utils.logger:test_amazon_automation.py:97 Navigating to page 3  of search results
+INFO     utils.logger:home_page.py:141 Checking navigation to next page is available
+INFO     utils.logger:home_page.py:143 Clicking paginator for navigation to next page
+INFO     utils.logger:home_page.py:49 Total count of products list after search : 22
+INFO     utils.logger:home_page.py:52 Looping through all products elements that matches the search value
+INFO     utils.logger:home_page.py:95 Saving the extracted product information in a CSV file product_info.csv
+INFO     utils.logger:home_page.py:116 PASS: successfully saved the product information to a csv file
+INFO     utils.logger:test_amazon_automation.py:103 Test Passed :  Test to crawl multiple pages of search results on Amazon and save it to a csv file

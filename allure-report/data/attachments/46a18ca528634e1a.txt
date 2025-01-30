@@ -1,0 +1,8 @@
+INFO     utils.logger:test_amazon_automation.py:112 Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page
+INFO     utils.logger:home_page.py:125 Retrieving the url for 1st product that matches the search value 
+INFO     utils.logger:home_page.py:130 Navigating to the 1st match product page
+INFO     utils.logger:base_page.py:22 Navigating to URL :  https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxMTQyMzM0NTgyMjIxNjA0OjE3MzgyMzU2MTY6c3BfYXRmX25leHQ6MzAwMzkyOTYxNjQ4NzMyOjowOjo&url=%2FApple-MacBook-Laptop-12%25E2%2580%2591core-16%25E2%2580%2591core%2Fdp%2FB0DLHFY1C7%2Fref%3Dsr_1_65_sspa%3Fdib%3DeyJ2IjoiMSJ9.Q0FyDL9vkNQ_fqq1aE1wufESRv-yJAXJgKez0A9cAzOX4hIUFfFn_0u8OTWfb5UqxO5lkv6x4MZYvoyRjdWARLHaDoCnZQvUCRtmaq-i_2aF2gO8CK-aHnihtSdJAfEc7esOrlF8FBtnZShPCa-Xin4Ik0jFUCXz3nHg4FHheQBWWNlLwsamO8qRiT8cyNFH5U5FrmnPTQw_CxVtZTicSEn64Zy7jiffhv2ACOIzfW4.ZIvydSS7F8oE3IdoD-WlLbmvW76fZIx4uREHuUsbbiw%26dib_tag%3Dse%26keywords%3DApple%2B2024%2BMacBook%2BAir%26nsdOptOutParam%3Dtrue%26qid%3D1738235616%26sr%3D8-65-spons%26xpid%3DYai09r_XANRPP%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1
+INFO     utils.logger:product_page.py:20 Validating presence of Add To Cart button on product page
+INFO     utils.logger:product_page.py:28 Validating presence of Product Description on product page
+INFO     utils.logger:product_page.py:36 Validating presence of Product Image on product page
+INFO     utils.logger:test_amazon_automation.py:119 Test Passed :  Test to validate the Presence of elements 'AddToCart button', 'Product Descriptions', 'Image Gallery' on the product page

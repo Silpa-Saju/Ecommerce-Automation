@@ -1,0 +1,11 @@
+[32mINFO    [0m utils.logger:conftest.py:78 Loaded config file :  /Users/silpasaju/PycharmProjects/Amazon Automation/config.ini
+[32mINFO    [0m utils.logger:test_amazon_automation.py:35 Test to search for an invalid product on Amazon
+[32mINFO    [0m utils.logger:base_page.py:22 Navigating to URL :  https://www.amazon.in/
+[32mINFO    [0m utils.logger:home_page.py:33 Searching for product !!!!!&&&&*****()***%$$$ in Home page
+[32mINFO    [0m utils.logger:home_page.py:35 Checking if results are loaded for the product search
+[32mINFO    [0m utils.logger:home_page.py:37 PASS : Results got loaded for product !!!!!&&&&*****()***%$$$
+[32mINFO    [0m utils.logger:home_page.py:49 Total count of products list after search : 48
+[32mINFO    [0m utils.logger:home_page.py:52 Looping through all products elements that matches the search value
+[32mINFO    [0m utils.logger:home_page.py:82 Checking if any matching products are found
+[32mINFO    [0m utils.logger:home_page.py:87 PASS : no matching products found for product !!!!!&&&&*****()***%$$$ from search results
+[32mINFO    [0m utils.logger:test_amazon_automation.py:41 Test Passed :  Test to search for an invalid product on Amazon

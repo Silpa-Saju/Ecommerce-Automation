@@ -1,0 +1,10 @@
+INFO     utils.logger:test_amazon_automation.py:55 Test to search for a valid product on Amazon
+INFO     utils.logger:base_page.py:22 Navigating to URL :  https://www.amazon.in/
+INFO     utils.logger:home_page.py:33 Searching for product Apple 2024 MacBook Air in Home page
+INFO     utils.logger:home_page.py:35 Checking if results are loaded for the product search
+INFO     utils.logger:home_page.py:37 PASS : Results got loaded for product Apple 2024 MacBook Air
+INFO     utils.logger:home_page.py:49 Total count of products list after search : 22
+INFO     utils.logger:home_page.py:52 Looping through all products elements that matches the search value
+INFO     utils.logger:home_page.py:70 Checking if any matching products are found
+INFO     utils.logger:home_page.py:72 PASS: Found matching products for product Apple 2024 MacBook Air
+INFO     utils.logger:test_amazon_automation.py:61 Test Passed :  Test to search for a valid product on Amazon
