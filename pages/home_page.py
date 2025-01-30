@@ -13,7 +13,7 @@ from pathlib import Path
 class HomePage(BasePage):
 
     def __init__(self, driver):
-        super().__init__(driver)  # Inherits BasePage constructor to stor driver
+        super().__init__(driver)  # Inherits BasePage constructor to store driver
         self.match_products = []
 
 
